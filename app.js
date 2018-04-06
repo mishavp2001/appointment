@@ -12,7 +12,7 @@ const moment = require('moment')
 const axios = require('axios')
 
 const app = express()
-const env = process.env.NODE_ENV || 'development'
+const env = 'production'
 
 app.set('trust proxy', 1)
 app.use(session({
