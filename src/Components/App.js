@@ -30,7 +30,7 @@ import FlatButton from 'material-ui/FlatButton'
 import logo from './../../assets/images/logo.svg'
 
 injectTapEventPlugin()
-const HOST = PRODUCTION ? '/' : 'http://localhost:3000/'
+const HOST = '/'
 
 export default class App extends Component {
   constructor() {
